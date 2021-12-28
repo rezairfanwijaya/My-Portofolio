@@ -423,6 +423,9 @@ nav a.download .download-cv .icon {
   .sosmed .main {
     width: 60%;
   }
+  .sosmed .iconhover {
+    color: #59C714;
+  }
   .decoration-bottom {
     width: 450px;
     height: 450px;
@@ -568,6 +571,9 @@ nav a.download .download-cv .icon {
   }
   .sosmed .main {
     width: 40%;
+  }
+  .sosmed .icon:hover {
+    color: #59C714;
   }
   .decoration-bottom {
     width: 450px;

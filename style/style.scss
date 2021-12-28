@@ -355,6 +355,11 @@ nav {
         .main {
             width: 60%;
         }
+        .icon {
+            &hover {
+                color: $green;
+            }
+        }
     }
     // decoration-bottom
     .decoration-bottom {
@@ -497,6 +502,11 @@ nav {
     .sosmed {
         .main {
             width: 40%;
+        }
+        .icon {
+            &:hover {
+                color: $green;
+            }
         }
     }
     // decoration-bottom
