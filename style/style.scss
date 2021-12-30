@@ -498,6 +498,12 @@ nav {
             }
         }
     }
+    // project
+    .konten {
+        .card:hover {
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.267);
+        }
+    }
     // sosmed
     .sosmed {
         .main {

@@ -22,6 +22,11 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <!-- Box Icons -->
+    <!-- <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script> -->
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Reza Irfan Wijaya</title>
 
 
@@ -59,7 +64,9 @@
                         <div class="download-cv">
                             <div class="text">Download CV</div>
 
-                            <ion-icon name="arrow-down-outline" class="icon"></ion-icon>
+                            <!-- <box-icon name='download' class="icon"></box-icon> -->
+                            <i class='bx bx-download bx-flashing icon'></i>
+                            <!-- <ion-icon name="arrow-down-outline" class="icon"></ion-icon> -->
 
                         </div>
                     </a>
@@ -145,7 +152,7 @@
             <div class="row">
                 <!-- login -->
                 <div class="col-12 col-lg-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <img src="img/ProjectLogin.png" class="card-img-top" alt="login">
                         <div class="card-body">
                             <h5 class="card-title my-3">Create a login system using php mysql</h5>
@@ -163,7 +170,7 @@
 
                 <!-- movie streaming -->
                 <div class="col-12 col-lg-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-delay="90" data-aos-duration="1000">
                         <img src="img/ProjectBemo.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title my-3">Make a movie streaming website UI</h5>
@@ -187,7 +194,7 @@
                 </div>
                 <!-- Database UI -->
                 <div class="col-12 col-lg-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                         <img src="img/ProjectDB.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title my-3">Make a database lesson website UI</h5>
@@ -220,7 +227,7 @@
                 <div class="dot"></div>
             </div>
 
-            <div class="core">
+            <div class="core" data-aos="fade-up" data-aos-delay="80" data-aos-duration="1000">
                 <div class="icon html">
                     <button class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML5">
                         <img src="img/html.png" alt="html">
@@ -287,34 +294,44 @@
                 <div class="dot"></div>
             </div>
 
-            <div class="main">
+            <div class="main" data-aos="fade-right" data-aos-delay="40" data-aos-duration="1000">
                 <div class="icon fb">
                     <a href="https://www.facebook.com/reza.i.wijaya.9" target="blank" class="text-decoration-none">
-                        <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                        <button class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit Facebook">
+                            <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                        </button>
                     </a>
                 </div>
 
                 <div class="icon ig">
                     <a href="https://www.instagram.com/rezaabdas/" target="blank" class="text-decoration-none">
-                        <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                        <button class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit Instagram">
+                            <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                        </button>
                     </a>
                 </div>
 
                 <div class="icon wa">
                     <a href="https://api.whatsapp.com/send?phone=6283844477447" target="blank" class="text-decoration-none">
-                        <ion-icon name="logo-whatsapp" class="icon"></ion-icon>
+                        <button class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Chat WhatsApp">
+                            <ion-icon name="logo-whatsapp" class="icon"></ion-icon>
+                        </button>
                     </a>
                 </div>
 
                 <div class="icon github">
                     <a href="https://github.com/rezairfanwijaya/" target="blank" class="text-decoration-none">
-                        <ion-icon name="logo-github" class="icon"></ion-icon>
+                        <button class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit Github">
+                            <ion-icon name="logo-github" class="icon"></ion-icon>
+                        </button>
                     </a>
                 </div>
 
                 <div class="icon email">
                     <a href="mailto:rezairfanwijaya23@gmail.com" target="blank" class="text-decoration-none">
-                        <ion-icon name="mail" class="icon"></ion-icon>
+                        <button class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Send Email">
+                            <ion-icon name="mail" class="icon"></ion-icon>
+                        </button>
                     </a>
                 </div>
             </div>

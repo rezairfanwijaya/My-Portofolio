@@ -569,6 +569,10 @@ nav a.download .download-cv .icon {
     font-size: 1rem;
     letter-spacing: 1px;
   }
+  .konten .card:hover {
+    -webkit-box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.267);
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.267);
+  }
   .sosmed .main {
     width: 40%;
   }
