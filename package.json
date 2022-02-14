@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwind -i ./src/css/input.css -o ./assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezairfanwijaya/rezairfanwijaya.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezairfanwijaya/rezairfanwijaya.github.io/issues"
+  },
+  "homepage": "https://github.com/rezairfanwijaya/rezairfanwijaya.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.19"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
