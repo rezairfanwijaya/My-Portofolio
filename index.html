@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Reza Irfan Wijaya</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800;900&display=swap" rel="stylesheet">
-    
+
     <!-- JS External -->
     <script src="assets/js/script.js"></script>
 </head>
 
-<body class="p-5 font-inter">
+<body class="py-6 px-7 font-inter lg:py-16 lg:px-36">
 
 
     <!-- header -->
     <section id="header">
 
-        <div class="cover bg-white shadow-xl rounded-2xl p-12 relative">
+        <div class="cover relative">
 
             <div class="header  flex justify-between mb-20">
                 <!-- header navbar -->
@@ -29,12 +29,12 @@
 
                 <div class="download-cv">
                     <a href="assets/doc/CV_REZAIRFANWIJAYA.pdf" download>
-                        <div class="kanan absolute right-1 w-1/2
+                        <div class="kanan absolute right-1 w-1/2 md:w-1/3
                         ">
                             <div
-                                class="text bg-gradient-to-r from-indigo-500/60 via-purple-500/80 to-pink-500  text-white p-2  font-semibold text-center flex justify-center items-center rounded-l-full">
-                                <div class="text-xl">Download CV</div>
-                                <ion-icon name="download-outline" class="animate-bounce ml-2 text-md"></ion-icon>
+                                class="text bg-gradient-to-r from-indigo-500/60 via-purple-500/80 to-pink-500  text-white p-2  font-semibold text-center flex justify-center items-center rounded-l-full drop-shadow-xl">
+                                <div class="text-lg">Download CV</div>
+                                <ion-icon name="download-outline" class="animate-bounce ml-2 text-lg"></ion-icon>
                             </div>
                         </div>
                     </a>
@@ -43,25 +43,34 @@
 
             <!-- hero -->
             <div class="hero ">
-                <div class="konten flex flex-col">
-                    <div
-                        class="nama text-4xl border-l-4  border-indigo-500/60 px-5 font-bold text-slate-700 ">
-                        REZA IRFAN WIJAYA
-                        <div class="role font-medium text-sm mt-2">
-                            FULLSTACK DEVELOPER
+                <div class="konten flex flex-col md:flex-row md:items-center">
+                    <div class="kiri md:w-1/2">
+                        <div class="nama text-4xl border-l-4  border-indigo-500/60 px-5 font-bold text-slate-700 ">
+                            REZA IRFAN WIJAYA
+                            <div class="role font-medium text-sm mt-2">
+                                FULLSTACK DEVELOPER
+                            </div>
+                        </div>
+
+                        <div class="deskripsi my-9 px-5 tracking-wide">
+                            Hi i'm Reza, welcome to my portfolio. This portfolio will show you what I've done as far as
+                            I
+                            learned to be a fullstack developer. If you are interested or have any questions please
+                            contact
+                            me
+                        </div>
+
+                        <div class="kontak px-5 tracking-wide mb-11">
+                            <a href="mailto:rezairfanwijya23@gmail.com"
+                                class="font-semibold text-slate-700 border-2 border-slate-300 rounded-full py-2 px-4"
+                                target="blank">Contact Me</a>
                         </div>
                     </div>
 
-                    <div class="deskripsi my-7 px-5 tracking-wide">
-                        Hi i'm Reza, welcome to my portfolio. This portfolio will show you what I've done as far as I learned to be a fullstack developer. If you are interested or have any questions please contact me
-                    </div>
-
-                    <div class="kontak px-5 tracking-wide mb-11">
-                        <a href="mailto:rezairfanwijya23@gmail.com" class="font-semibold text-slate-700 border-2 border-slate-300 rounded-full py-2 px-4">Contact Me</a>
-                    </div>
-                    
-                    <div class="foto px-5 ">
-                        <img src="assets/img/my.jpeg" alt="my" class="rounded-md">
+                    <div class="kanan md:w-1/2">
+                        <div class="foto px-5 ">
+                            <img src="assets/img/me.png" alt="my" class="rounded-md">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -69,6 +78,33 @@
     </section>
 
 
+    <!-- total project -->
+    <div class="summarry md:flex md:justify-evenly">
+        <a href="#header" class="md:w-1/2">
+            <section class="cover mt-16 md:mt-12 bg-gradient-to-r from-violet-500/80  to-pink-600/90">
+                <!-- total project -->
+                <div class="project flex justify-center items-center">
+                    <div class="text-center text-2xl uppercase font-bold tracking-wide text-white  ">6 Projects</div>
+                    <ion-icon name="briefcase-outline" class="text-white ml-4 text-2xl"></ion-icon>
+                </div>
+            </section>
+        </a>
+
+        <!-- Skills -->
+        <a href="" class="md:w-1/2">
+            <section class="cover my-5 md:mt-12 md:ml-4 bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300">
+                <!-- total project -->
+                <div class="skills flex justify-center items-center ">
+                    <div class="text-center text-2xl uppercase font-bold tracking-wide text-white">skills & tools</div>
+                    <ion-icon name="extension-puzzle-outline" class="text-white ml-4 text-2xl"></ion-icon>
+                </div>
+            </section>
+        </a>
+    </div>
+
+
+
+    <div class="mb-64"></div>
 
 
 
