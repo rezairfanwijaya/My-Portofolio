@@ -6,32 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portfolio</title>
+    <title>Reza Irfan Wijaya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- JS External -->
+    <script src="assets/js/script.js"></script>
 </head>
 
-<body class="p-5">
-    <!-- navbar -->
-    <div class="nav bg-white shadow-xl rounded-2xl">
-        <div class="header p-12 flex justify-between relative">
+<body class="p-5 font-inter">
 
-            <div class="icon">
-                <ion-icon name="menu-outline" class="text-5xl text-gray-800"></ion-icon>
-            </div>
 
-            <div class="download-cv">
-                <div class="kanan absolute right-1 left-44">
-                    <p class="text bg-gradient-to-r from-indigo-500/60 via-purple-500/80 to-pink-500  text-white p-2 text-xl font-bold rounded-l-full text-center">
-                        Download CV
-                        <ion-icon name="download-outline" class="animate-bounce ml-2"></ion-icon>
-                    </p>
+    <!-- header -->
+    <section id="header">
+
+        <div class="cover bg-white shadow-xl rounded-2xl p-12 relative">
+
+            <div class="header  flex justify-between mb-20">
+                <!-- header navbar -->
+                <div class="icon">
+                    <ion-icon name="menu-outline" class="text-5xl text-gray-800"></ion-icon>
+                </div>
+
+                <div class="download-cv">
+                    <a href="assets/doc/CV_REZAIRFANWIJAYA.pdf" download>
+                        <div class="kanan absolute right-1 w-1/2
+                        ">
+                            <div
+                                class="text bg-gradient-to-r from-indigo-500/60 via-purple-500/80 to-pink-500  text-white p-2  font-semibold text-center flex justify-center items-center rounded-l-full">
+                                <div class="text-xl">Download CV</div>
+                                <ion-icon name="download-outline" class="animate-bounce ml-2 text-md"></ion-icon>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
+            <!-- hero -->
+            <div class="hero ">
+                <div class="konten flex flex-col">
+                    <div
+                        class="nama text-4xl border-l-4  border-indigo-500/60 px-5 font-bold text-slate-700 ">
+                        REZA IRFAN WIJAYA
+                        <div class="role font-medium text-sm mt-2">
+                            FULLSTACK DEVELOPER
+                        </div>
+                    </div>
+
+                    <div class="deskripsi my-7 px-5 tracking-wide">
+                        Hi i'm Reza, welcome to my portfolio. This portfolio will show you what I've done as far as I learned to be a fullstack developer. If you are interested or have any questions please contact me
+                    </div>
+
+                    <div class="kontak px-5 tracking-wide mb-11">
+                        <a href="mailto:rezairfanwijya23@gmail.com" class="font-semibold text-slate-700 border-2 border-slate-300 rounded-full py-2 px-4">Contact Me</a>
+                    </div>
+                    
+                    <div class="foto px-5 ">
+                        <img src="assets/img/my.jpeg" alt="my" class="rounded-md">
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
-
-
+    </section>
 
 
 
