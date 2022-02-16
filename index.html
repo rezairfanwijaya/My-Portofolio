@@ -29,11 +29,11 @@
 
                 <div class="download-cv">
                     <a href="assets/doc/CV_REZAIRFANWIJAYA.pdf" download>
-                        <div class="kanan absolute right-1 w-1/2 md:w-1/5
+                        <div class="kanan absolute right-1 w-1/2 md:w-1/4 lg:w-1/5
                         ">
                             <div
                                 class="text bg-gradient-to-r from-indigo-500/60 via-purple-500/80 to-pink-500  text-white p-2 lg:p-3  font-semibold text-center flex justify-center items-center rounded-l-full drop-shadow-xl">
-                                <div class="sm:text-lg">Download CV</div>
+                                <div class="sm:text-lg  md:ml-1">Download CV</div>
                                 <ion-icon name="download-outline" class="animate-bounce ml-2 text-lg"></ion-icon>
                             </div>
                         </div>
@@ -109,44 +109,39 @@
 
     <!-- about -->
     <section class="bg-white drop-shadow-2xl rounded-2xl md:mt-12 mt-16 ">
-        <div class="gambar w-60 mx-auto">
-            <img src="assets/img/bg-about.png" alt="bg">
-        </div>
-
-        <div class="konten p-12">
-            <div class="judul uppercase text-4xl font-bold text-slate-700 w-1/2 tracking-wide">
-                about me
+        <div class="md:flex md:items-center">
+            <div class="gambar w-60 md:w-1/2 mx-auto">
+                <img src="assets/img/bg-about.png" alt="bg" class="w-full">
             </div>
-            <div class="desc-about my-5 text-slate-600 tracking-wider">
-                Enthusiastic and highly motivated Informatics student with problem solving skills, initiative and
-                looking for new challenges. Skilled in operating various platforms such as figma and Visual Studio Code.
+
+            <div class="konten p-12  md:w-1/2">
+                <div class="judul uppercase text-4xl font-bold text-slate-700 w-1/2 tracking-wide">
+                    about me
+                </div>
+                <div class="desc-about my-5 text-slate-600 tracking-wider">
+                    Enthusiastic and highly motivated Informatics student with problem solving skills, initiative and
+                    looking for new challenges. Skilled in operating various platforms such as figma and Visual Studio
+                    Code.
+                </div>
             </div>
         </div>
     </section>
 
     <!-- gallery ui -->
-    <div class="col-span-4 row-span-6 w-80 mx-auto">
+    <div class=" grid grid-cols-4 grid-rows-6 md:grid-cols-2 md:grid-rows-3 w-full mx-auto md:mt-16">
         <!-- login -->
-        <div class="col-span-4 row-span-6">
-            <section class="bg-white drop-shadow-2xl rounded-2xl mt-16 p-0">
+        <div class="col-span-4 row-span-6 md:col-span-1 md:row-span-3">
+            <section class="bg-white drop-shadow-2xl rounded-2xl mt-16 md:mt-8 p-0 md:mx-5">
                 <div class="gambar">
-                    <img src="assets/img/ui/cover/Signup.png" alt="" class="object-cover  rounded-2xl">
+                    <img src="assets/img/ui/cover/signup.png" alt="" class="object-cover  rounded-2xl">
                 </div>
             </section>
         </div>
 
-        <!-- bemo -->
-        <div class="col-span-4 row-span-6 w-80 mx-auto">
-            <section class=" bg-white drop-shadow-2xl rounded-2xl mt-14 p-0 object-cover">
-                <div class="gambar">
-                    <img src="assets/img/ui/cover/bemo.png" alt="" class="object-cover  rounded-2xl">
-                </div>
-            </section>
-        </div>
 
-        <div class="col-span-4 row-span-6 w-80 mx-auto">
+        <div class="col-span-4 row-span-6  md:col-span-1 md:row-span-3 mx-auto">
             <!-- Elegansi -->
-            <section class="bg-white drop-shadow-2xl rounded-2xl mt-14 p-0">
+            <section class="bg-white drop-shadow-2xl rounded-2xl mt-14 md:mt-8 p-0 md:mx-5">
                 <div class="gambar">
                     <img src="assets/img/ui/cover/elegansi.png" alt="" class="object-cover  rounded-2xl">
                 </div>
@@ -154,26 +149,32 @@
         </div>
 
 
-        <div class="col-span-6 row-span-6">
+        <div class="col-span-6 row-span-6 md:col-span-2 md:row-span-3 md:mt-12">
             <!-- view all -->
             <section
-                class="bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300 drop-shadow-xl rounded-2xl mt-14 p-6">
+                class="bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300 drop-shadow-xl rounded-2xl mt-14 md:mt-0 p-6">
                 <div class="veiw text-xl font-semibold uppercase w-1/2 mx-auto ">
                     <p class="text-center  text-white">view all</p>
                 </div>
             </section>
         </div>
-    </section>
-
-    <div class="mb-64"></div>
+        </section>
 
 
+        <!-- blog -->
+        <!-- <section class="cover">
+
+    </section> -->
+
+        <div class="mb-64"></div>
 
 
 
-    <!-- install ionicon -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+        <!-- install ionicon -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
