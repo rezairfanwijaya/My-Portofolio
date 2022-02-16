@@ -542,6 +542,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mb-20{
   margin-bottom: 5rem;
 }
@@ -1200,12 +1205,56 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px){
+  .lg\:col-span-3{
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:col-span-1{
+    grid-column: span 1 / span 1;
+  }
+
+  .lg\:row-span-2{
+    grid-row: span 2 / span 2;
+  }
+
+  .lg\:my-20{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .lg\:my-16{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .lg\:my-5{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:my-10{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
   .lg\:mb-11{
     margin-bottom: 2.75rem;
   }
 
+  .lg\:grid{
+    display: grid;
+  }
+
   .lg\:w-1\/5{
     width: 20%;
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-2{
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:p-3{

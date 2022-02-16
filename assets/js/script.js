@@ -1,7 +1,7 @@
-module.exports = {
-    theme: {
-        fontFamily: {
-            'inter': ['Inter']
-        }
-    }
-}
+// module.exports = {
+//     theme: {
+//         fontFamily: {
+//             'inter': ['Inter']
+//         }
+//     }
+// }
