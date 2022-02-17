@@ -23,3 +23,9 @@
         @apply bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300
     }
 }
+
+@layer base{
+    .bg-bb{
+        @apply bg-gradient-to-r from-violet-500/80  to-pink-600/90
+    }
+}
