@@ -13,7 +13,7 @@
     <script src="assets/js/script.js"></script>
 </head>
 
-<body class="py-5 px-3 sm:py-6 sm:px-7 font-inter lg:py-12 lg:px-24">
+<body class="py-5 px-3 sm:py-6 sm:px-7 font-inter lg:py-16 lg:px-44 2xl:py-18 2xl:px-80">
 
 
     <!-- header -->
@@ -21,20 +21,36 @@
 
         <div class="cover relative">
 
-            <div class="header  flex justify-between mb-20 lg:mb-11">
+            <div class="header  flex justify-between  mb-20 lg:mb-20">
                 <!-- header navbar -->
-                <div class="icon">
+
+                <!-- list untuk layar lg keatas -->
+                <div class="list hidden lg:inline-block">
+                    <ul class="text-2xl font-semibold tracking-wide text-slate-500 flex gap-3">
+                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-7 rounded-full"><a href="">Home</a></li>
+                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-7 rounded-full"><a href="">Project</a></li>
+                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-7 rounded-full"><a href="">Skill</a></li>
+                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-7 rounded-full"><a href="">Blog</a></li>
+                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-7 rounded-full"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- toogle untuk layar md kebawah -->
+                <div class="icon inline-block lg:hidden ">
                     <ion-icon name="menu-outline" class="text-5xl text-gray-800"></ion-icon>
                 </div>
 
+
                 <div class="download-cv">
                     <a href="assets/doc/CV_REZAIRFANWIJAYA.pdf" download>
-                        <div class="kanan absolute right-1 w-1/2 md:w-1/4 lg:w-1/5
+                        <div class="kanan absolute right-1 lg:top-8 w-1/2 md:w-1/4 lg:w-1/6
                         ">
                             <div
-                                class="text bg-gradient-to-r from-indigo-500/60 via-purple-500/80 to-pink-500  text-white p-2 lg:p-3  font-semibold text-center flex justify-center items-center rounded-l-full drop-shadow-xl">
-                                <div class="sm:text-lg  md:ml-1">Download CV</div>
-                                <ion-icon name="download-outline" class="animate-bounce ml-2 text-lg"></ion-icon>
+                                class="text bg-gradient-to-r from-indigo-500/60 via-purple-500/80 to-pink-500  text-white p-2 lg:p-3  font-semibold text-center flex justify-center items-center rounded-l-full drop-shadow-xl hover:shadow-sm hover:bg-download">
+                                <div class="sm:text-lg lg:text-xl md:ml-1">Download CV</div>
+                                <ion-icon name="download-outline" class="animate-bounce ml-2 text-lg lg:text-xl">
+                                </ion-icon>
                             </div>
                         </div>
                     </a>
@@ -42,11 +58,11 @@
             </div>
 
             <!-- hero -->
-            <div class="hero ">
-                <div class="konten flex flex-col md:flex-row md:items-center">
-                    <div class="kiri md:w-1/2 w-full">
+            <div class="hero">
+                <div class="konten flex flex-col md:flex-row md:items-center lg:items-start">
+                    <div class="kiri md:w-1/2 w-full  lg:py-12">
                         <div
-                            class="nama text-4xl border-l-4  border-indigo-500/60 px-5 font-bold text-slate-700 w-full">
+                            class="nama text-4xl lg:text-6xl border-l-4  border-indigo-500/60 px-5 font-bold text-slate-700 w-full">
                             REZA IRFAN WIJAYA
                             <div class="role font-medium text-sm mt-2">
                                 FULLSTACK DEVELOPER
@@ -63,13 +79,13 @@
 
                         <div class="kontak px-5 tracking-wide mb-11">
                             <a href="mailto:rezairfanwijya23@gmail.com"
-                                class="font-semibold text-slate-700 border-2 border-slate-300 rounded-full py-2 px-4"
+                                class="font-semibold text-slate-700 border-2 border-slate-300 rounded-full py-2 px-4 hover:bg-cover hover:border-0 hover:text-white hover:shadow-lg lg:text-lg lg:tracking-wider lg:py-3 lg:px-5 "
                                 target="blank">Contact Me</a>
                         </div>
                     </div>
 
-                    <div class="kanan md:w-1/2">
-                        <div class="foto px-5 ">
+                    <div class="kanan md:w-1/2 lg:w-100 ">
+                        <div class="foto px-5 lg:w-9/12 mx-auto">
                             <img src="assets/img/me.png" alt="my" class="rounded-md">
                         </div>
                     </div>
@@ -80,14 +96,15 @@
 
 
     <!-- total project -->
-    <div class="summarry md:flex md:justify-evenly lg:my-10">
+    <div class="summarry md:flex md:justify-evenly my-16 lg:my-10">
         <a href="#header" class="md:w-1/2">
-            <section class="cover bg-gradient-to-r from-violet-500/80  to-pink-600/90">
+            <section
+                class="cover bg-gradient-to-r from-violet-500/80  to-pink-600/90 hover:shadow-xl hover:translate-y-1">
                 <!-- total project -->
-                <div class="project flex justify-center items-center">
+                <div class="project flex justify-center items-center lg:p-11">
                     <div class="text-center text-lg sm:text-2xl uppercase font-bold tracking-wide text-white  ">6
                         Projects</div>
-                    <ion-icon name="briefcase-outline" class="text-white ml-4 text-2xl"></ion-icon>
+                    <ion-icon name="briefcase-outline" class="text-white ml-4 text-2xl lg:text-4xl"></ion-icon>
                 </div>
             </section>
         </a>
@@ -95,12 +112,12 @@
         <!-- Skills -->
         <a href="" class="md:w-1/2">
             <section
-                class="cover md:ml-4 bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300">
+                class="cover mt-5 sm:mt-0 md:ml-4 bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300 hover:shadow-xl hover:translate-y-1">
                 <!-- total project -->
-                <div class="skills flex justify-center items-center ">
+                <div class="skills flex justify-center items-center lg:p-11">
                     <div class="text-center text-lg sm:text-2xl uppercase font-bold tracking-wide text-white">skills &
                         tools</div>
-                    <ion-icon name="extension-puzzle-outline" class="text-white ml-4 text-2xl"></ion-icon>
+                    <ion-icon name="extension-puzzle-outline" class="text-white ml-4 text-2xl lg:text-4xl"></ion-icon>
                 </div>
             </section>
         </a>
@@ -108,7 +125,7 @@
 
 
     <!-- about -->
-    <section class="bg-white drop-shadow-2xl rounded-2xl lg:my-10">
+    <section class="bg-white drop-shadow-2xl rounded-2xl lg:my-10 my-16">
         <div class="md:flex md:items-center">
             <div class="gambar w-60 md:w-1/2 mx-auto">
                 <img src="assets/img/bg-about.png" alt="bg" class="w-full">
@@ -128,7 +145,7 @@
     </section>
 
     <!-- gallery ui -->
-    <div class=" grid grid-cols-4 grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3  w-full mx-auto">
+    <div class=" grid grid-cols-4 grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3  w-full mx-auto ">
 
         <!-- login -->
         <div class="col-span-4 row-span-6 md:col-span-1 md:row-span-3 lg:col-span-1  mx-auto">
@@ -141,7 +158,7 @@
 
 
         <!-- Elegansi -->
-        <div class="col-span-4 row-span-6  md:col-span-1 md:row-span-3 lg:col-span-1  mx-auto">
+        <div class="col-span-4 row-span-6  md:col-span-1 md:row-span-3 lg:col-span-1  mt-8 sm:mt-0 mx-auto">
             <section class="bg-white drop-shadow-2xl rounded-2xl p-0 md:mx-5">
                 <div class="gambar">
                     <img src="assets/img/ui/cover/elegansi.png" alt="cover" class="object-cover  rounded-2xl">
@@ -151,31 +168,31 @@
 
 
         <!-- view all -->
-        <div class="col-span-6 row-span-6 md:col-span-2 md:row-span-3  lg:col-span-1">
+        <div class="col-span-4 row-span-6 md:col-span-2 md:row-span-3 lg:col-span-1  mt-8">
             <section
-                class="bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300 drop-shadow-xl rounded-2xl ">
+                class="bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300 drop-shadow-xl rounded-2xl p-7">
                 <div class="veiw text-xl font-semibold uppercase w-1/2 mx-auto ">
                     <p class="text-center  text-white">view all</p>
                 </div>
             </section>
         </div>
-        </section>
+    </div>
 
 
-        <!-- blog -->
-        <!-- <section class="cover">
+    <!-- blog -->
+    <!-- <section class="cover">
 
     </section> -->
 
-        <div class="mb-64"></div>
+    <div class="mb-64"></div>
 
 
 
 
 
-        <!-- install ionicon -->
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- install ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
