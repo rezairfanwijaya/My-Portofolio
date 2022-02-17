@@ -27,11 +27,26 @@
                 <!-- list untuk layar lg keatas -->
                 <div class="list hidden lg:inline-block">
                     <ul class="text-lg font-semibold tracking-wide text-slate-500 flex gap-2">
-                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full"><a href="">Home</a></li>
-                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full"><a href="">Project</a></li>
-                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full"><a href="">Skill</a></li>
-                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full"><a href="">Blog</a></li>
-                        <li class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full"><a href="">Contact</a></li>
+                        <li
+                            class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                            <a href="">Home</a>
+                        </li>
+                        <li
+                            class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                            <a href="">Project</a>
+                        </li>
+                        <li
+                            class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                            <a href="">Skill</a>
+                        </li>
+                        <li
+                            class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                            <a href="">Blog</a>
+                        </li>
+                        <li
+                            class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                            <a href="">Contact</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -64,7 +79,7 @@
                         <div
                             class="nama text-4xl lg:text-4xl border-l-4  border-indigo-500/60 px-5 font-bold text-slate-700 w-full">
                             REZA IRFAN WIJAYA
-                            <div class="role font-medium text-sm mt-2">
+                            <div class="role text-slate-500 text-sm mt-2 lg:font-semibold">
                                 FULLSTACK DEVELOPER
                             </div>
                         </div>
@@ -145,38 +160,45 @@
     </section>
 
     <!-- gallery ui -->
-    <div class=" grid grid-cols-4 grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3  w-full mx-auto ">
+    <div class=" grid grid-cols-4 grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3  w-full mx-auto  lg:gap-6">
 
         <!-- login -->
         <div class="col-span-4 row-span-6 md:col-span-1 md:row-span-3 lg:col-span-1  mx-auto">
-            <section class="bg-white drop-shadow-2xl rounded-2xl  p-0 md:mx-5">
-                <div class="gambar">
-                    <img src="assets/img/ui/cover/Signup.png" alt="cover" class="object-cover rounded-2xl">
-                </div>
-            </section>
+            <a href="">
+                <section class="bg-white drop-shadow-2xl rounded-2xl p-0  hover:shadow-xl hover:translate-y-1">
+                    <div class="gambar">
+                        <img src="assets/img/ui/cover/Signup.png" alt="cover" class="object-cover rounded-2xl">
+                    </div>
+                </section>
+            </a>
         </div>
 
 
         <!-- Elegansi -->
         <div class="col-span-4 row-span-6  md:col-span-1 md:row-span-3 lg:col-span-1  mt-8 sm:mt-0 mx-auto">
-            <section class="bg-white drop-shadow-2xl rounded-2xl p-0 md:mx-5">
-                <div class="gambar">
-                    <img src="assets/img/ui/cover/elegansi.png" alt="cover" class="object-cover  rounded-2xl">
-                </div>
-            </section>
+            <a href="">
+                <section class="bg-white drop-shadow-2xl rounded-2xl p-0  hover:shadow-xl hover:translate-y-1">
+                    <div class="gambar">
+                        <img src="assets/img/ui/cover/elegansi.png" alt="cover" class="object-cover  rounded-2xl">
+                    </div>
+                </section>
+            </a>
         </div>
 
 
         <!-- view all -->
-        <div class="col-span-4 row-span-6 md:col-span-2 md:row-span-3 lg:col-span-1  mt-8">
-            <section
-                class="bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300 drop-shadow-xl rounded-2xl p-7">
-                <div class="veiw text-xl font-semibold uppercase w-1/2 mx-auto ">
-                    <p class="text-center  text-white">view all</p>
-                </div>
-            </section>
+        <div class="col-span-4 row-span-6 md:col-span-2 md:row-span-3 lg:col-span-1 lg:row-span-3 mt-8 lg:mt-0">
+            <a href="">
+                <section
+                    class="bg-gradient-to-r from-pink-600/60 via-orange-400/90  to-yellow-300 drop-shadow-xl rounded-2xl p-7 lg:py-[57%]  hover:shadow-xl hover:translate-y-1">
+                    <div class="veiw text-xl font-semibold uppercase w-1/2 mx-auto ">
+                        <p class="text-center  text-white">view all</p>
+                    </div>
+                </section>
+            </a>
         </div>
     </div>
+
 
 
     <!-- blog -->
