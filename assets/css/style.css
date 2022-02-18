@@ -434,14 +434,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.bg-download{
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  --tw-gradient-from: #6366f1;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(99 102 241 / 0));
-  --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
-  --tw-gradient-to: #ec4899;
-}
-
 .bg-bb{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: rgb(139 92 246 / 0.8);
@@ -782,21 +774,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(219 39 119 / 0));
 }
 
-.from-indigo-500{
-  --tw-gradient-from: #6366f1;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(99 102 241 / 0));
-}
-
 .via-purple-500\/80{
   --tw-gradient-stops: var(--tw-gradient-from), rgb(168 85 247 / 0.8), var(--tw-gradient-to, rgb(168 85 247 / 0));
 }
 
 .via-orange-400\/90{
   --tw-gradient-stops: var(--tw-gradient-from), rgb(251 146 60 / 0.9), var(--tw-gradient-to, rgb(251 146 60 / 0));
-}
-
-.via-purple-500{
-  --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
 }
 
 .to-pink-500{
@@ -1054,6 +1037,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0px;
   }
 
+  .sm\:gap-0{
+    gap: 0px;
+  }
+
+  .sm\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .sm\:gap-52{
+    gap: 13rem;
+  }
+
   .sm\:py-6{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -1088,6 +1083,26 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-row: span 3 / span 3;
   }
 
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:mx-7{
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+  }
+
+  .md\:mx-1{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  .md\:mx-3{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
   .md\:ml-1{
     margin-left: 0.25rem;
   }
@@ -1098,6 +1113,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:mb-12{
     margin-bottom: 3rem;
+  }
+
+  .md\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:mb-9{
+    margin-bottom: 2.25rem;
   }
 
   .md\:flex{
@@ -1124,8 +1147,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .md\:flex-wrap{
+    flex-wrap: wrap;
+  }
+
   .md\:flex-nowrap{
     flex-wrap: nowrap;
+  }
+
+  .md\:items-start{
+    align-items: flex-start;
   }
 
   .md\:items-center{
@@ -1143,6 +1174,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:gap-4{
     gap: 1rem;
   }
+
+  .md\:gap-0{
+    gap: 0px;
+  }
+
+  .md\:gap-1{
+    gap: 0.25rem;
+  }
+
+  .md\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .md\:gap-2{
+    gap: 0.5rem;
+  }
+
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1158,29 +1210,29 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-row: span 3 / span 3;
   }
 
+  .lg\:my-20{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
   .lg\:my-10{
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
 
-  .lg\:my-1{
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
+  .lg\:my-4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
-  .lg\:my-2{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .lg\:my-48{
+    margin-top: 12rem;
+    margin-bottom: 12rem;
   }
 
-  .lg\:my-24{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-  }
-
-  .lg\:my-20{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  .lg\:my-12{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .lg\:mb-20{
@@ -1189,18 +1241,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:mt-0{
     margin-top: 0px;
-  }
-
-  .lg\:mb-9{
-    margin-bottom: 2.25rem;
-  }
-
-  .lg\:mb-12{
-    margin-bottom: 3rem;
-  }
-
-  .lg\:mb-1{
-    margin-bottom: 0.25rem;
   }
 
   .lg\:mb-16{
