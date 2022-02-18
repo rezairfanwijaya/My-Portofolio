@@ -434,6 +434,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.bg-download{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #6366f1;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(99 102 241 / 0));
+  --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
+  --tw-gradient-to: #ec4899;
+}
+
+.bg-cover{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: rgb(219 39 119 / 0.6);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(219 39 119 / 0));
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(251 146 60 / 0.9), var(--tw-gradient-to, rgb(251 146 60 / 0));
+  --tw-gradient-to: #fde047;
+}
+
 .bg-bb{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: rgb(139 92 246 / 0.8);
@@ -486,6 +502,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
@@ -496,6 +516,34 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .right-1{
   right: 0.25rem;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.top-40{
+  top: 10rem;
+}
+
+.right-60{
+  right: 15rem;
+}
+
+.bottom-20{
+  bottom: 5rem;
+}
+
+.right-10{
+  right: 2.5rem;
+}
+
+.bottom-5{
+  bottom: 1.25rem;
+}
+
+.z-50{
+  z-index: 50;
 }
 
 .col-span-4{
@@ -528,6 +576,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .mb-20{
@@ -794,6 +847,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #fde047;
 }
 
+.bg-cover{
+  background-size: cover;
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -902,6 +959,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-semibold{
