@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwind -i ./src/css/input.css -o ./assets/css/style.css --watch"
+    "dev": "npx tailwind -i ./src/css/input.css -o ./assets/css/style.css --watch",
+    "serve": "lite-server --baseDir rezairfanwiaya.github.io"
   },
   "repository": {
     "type": "git",
