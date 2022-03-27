@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/MyLogoDark.svg">
+    <title>Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="body">
+
+    <!-- float button -->
+    <div class="float fixed bottom-5 right-5 md:bottom-10 md:right-10 z-50">
+        <a href="#header">
+            <div class="icon" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <ion-icon name="chevron-up-outline"
+                    class="text-white bg-download rounded-full text-xl md:text-2xl p-2 md:p-3"></ion-icon>
+            </div>
+        </a>
+    </div>
+    <!-- float button -->
+
+    <div id="header"></div>
+    <!-- navbar -->
+    <div class="cover">
+        <div class="header  flex justify-between  mb-20 lg:mb-20">
+            <!-- header navbar -->
+
+            <!-- list untuk layar lg keatas -->
+            <div class="list hidden lg:inline-block">
+                <ul class="text-lg font-semibold tracking-wide text-slate-500 flex gap-2">
+                    <li
+                        class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li
+                        class="transition hover:duration-300 bg-cover bg-clip-text text-transparent py-2 px-6 rounded-full">
+                        <a href="pages/projects.html">Project</a>
+                    </li>
+                    <li
+                        class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                        <a href="">Skill</a>
+                    </li>
+                    <li
+                        class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                        <a href="../index.html#blog">Blog</a>
+                    </li>
+                    <li
+                        class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- toogle untuk layar md kebawah -->
+            <div class="icon inline-block lg:hidden ">
+                <ion-icon name="menu-outline" class="text-5xl text-gray-800"></ion-icon>
+            </div>
+
+
+            <div class="hire-me">
+                <a href="mailto:rezairfanwijya23@gmail.com" >
+                    <div class="kanan absolute right-1 lg:top-8 w-1/3 md:w-1/5 lg:w-2/12
+                ">
+                        <div
+                            class="text bg-gradient-to-r from-indigo-500/60 via-purple-500/80 to-pink-500  text-white p-2 lg:p-3  font-semibold text-center flex justify-center items-center rounded-l-full drop-shadow-xl hover:shadow-sm hover:bg-download">
+                            <div class="sm:text-lg  md:ml-1">Hire Me</div>
+                            <ion-icon name="mail-outline" class="animate-bounce ml-2 text-lg lg:text-xl"></ion-icon>
+                            </ion-icon>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 grid-rows-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+            <!-- login register -->
+
+            <div class="cols-span-1 rows-span-1 ">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/loginRegister.png" alt="signup" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Login Management System</div>
+                        <div class="desc my-5">I made a multi-account login and register feature using php native</div>
+                        <div class="tombol flex justify-end">
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/login-and-register" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 border-2 mb-5 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bemo -->
+            <div class="cols-span-1 rows-span-1">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/bemo.jpg" alt="bemo" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Bemo-Streaming Movies</div>
+                        <div class="desc my-5">I created a display for a movie streaming website using bootstrap</div>
+                        <div class="tombol flex justify-between">
+                            <!-- demo -->
+                            <a href="https://beban.netlify.app/" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-demo hover:text-white hover:border-white">
+                                    <div class="font-medium">Demo</div>
+                                    <ion-icon name="play-outline"></ion-icon>
+                                </div>
+                            </a>
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/BEMO-Streaming-Film" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- snake game with js -->
+            <div class="cols-span-1 rows-span-1">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/snake.png" alt="snake" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Simple Snake Game </div>
+                        <div class="desc my-5">I made a simple snake game using vanilla javascript</div>
+                        <div class="tombol flex justify-between">
+                            <!-- demo -->
+                            <a href="https://rezairfanwijaya.github.io/snake-game-with-js/" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-demo hover:text-white hover:border-white">
+                                    <div class="font-medium">Demo</div>
+                                    <ion-icon name="play-outline"></ion-icon>
+                                </div>
+                            </a>
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/snake-game-with-js" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- luxspace react -->
+            <div class="cols-span-1 rows-span-1">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/luxspace.png" alt="luxspace" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Luxspace-Furniture Shop</div>
+                        <div class="desc my-5">I made a furniture store website using react js from <a
+                                href="https://buildwithangga.com/"
+                                class="underline underline-offset-2 decoration-pink-600 hover:decoration-orange-600"
+                                target="blank">Build With Angga</a></div>
+                        <div class="tombol flex justify-between">
+                            <!-- demo -->
+                            <a href="https://luxspace-nroqbipt5-rezairfanwijaya.vercel.app/" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-demo hover:text-white hover:border-white">
+                                    <div class="font-medium">Demo</div>
+                                    <ion-icon name="play-outline"></ion-icon>
+                                </div>
+                            </a>
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/luxspace-ReactJS" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- herocat -->
+            <div class="cols-span-1 rows-span-1">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/herocat.png" alt="herocat" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Herocat Cat Adoption</div>
+                        <div class="desc my-5">I made a website to adopt a cat using php mysql</div>
+                        <div class="tombol flex justify-end">
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/herocat" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- restaurant -->
+            <div class="cols-span-1 rows-span-1">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/restaurant.png" alt="restaurant" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Restaurant Menu Order</div>
+                        <div class="desc my-5">I made an order system in a restaurant using oop php</div>
+                        <div class="tombol flex justify-between">
+                            <!-- demo -->
+                            <a href="https://restaurant-abdas.herokuapp.com/" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-demo hover:text-white hover:border-white">
+                                    <div class="font-medium">Demo</div>
+                                    <ion-icon name="play-outline"></ion-icon>
+                                </div>
+                            </a>
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/Restaurant" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- learn tailwind -->
+            <div class="cols-span-1 rows-span-1">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/tailwind.png" alt="tailwind" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Tailwind Documentation</div>
+                        <div class="desc my-5">I made a tailwind learning documentation</div>
+                        <div class="tombol flex justify-between">
+                             <!-- demo -->
+                             <a href="https://rezairfanwijaya.github.io/Learn-Tailwind/" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-demo hover:text-white hover:border-white">
+                                    <div class="font-medium">Demo</div>
+                                    <ion-icon name="play-outline"></ion-icon>
+                                </div>
+                            </a>
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/Learn-Tailwind" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- learn db -->
+            <div class="cols-span-1 rows-span-1">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/database.png" alt="database" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Database Documentation</div>
+                        <div class="desc my-5">I made a mysql database learning documentation</div>
+                        <div class="tombol flex justify-between">
+                               <!-- demo -->
+                               <a href="https://abdasdb.netlify.app/" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-demo hover:text-white hover:border-white">
+                                    <div class="font-medium">Demo</div>
+                                    <ion-icon name="play-outline"></ion-icon>
+                                </div>
+                            </a>
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/Learn-Data-Base" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- install ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
