@@ -11,17 +11,17 @@
     <link rel="icon" href="assets/img/MyLogoDark.svg">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- JS External -->
-    <script src="assets/js/script.js"></script>
+
 </head>
 
-<body class="body">
+<body class="body overflow-x-hidden">
 
     <!-- float button -->
     <div class="float fixed bottom-5 right-5 md:bottom-10 md:right-10 z-50">
         <a href="#header">
             <div class="icon" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                <ion-icon name="chevron-up-outline" class="text-white bg-download rounded-full text-xl md:text-2xl p-2 md:p-3"></ion-icon>
+                <ion-icon name="chevron-up-outline"
+                    class="text-white bg-download rounded-full text-xl md:text-2xl p-2 md:p-3"></ion-icon>
             </div>
         </a>
     </div>
@@ -62,8 +62,43 @@
 
 
                 <!-- toogle untuk layar md kebawah -->
-                <div class="icon inline-block lg:hidden ">
+                <div class="icon inline-block lg:hidden" id="toogle-side">
                     <ion-icon name="menu-outline" class="text-5xl text-gray-800"></ion-icon>
+                </div>
+
+                <!-- list untuk layar lg kebawah -->
+                <div class="yard shadow-sm z-50  absolute left-0 right-0 h-full bg-white rounded-md p-3" id="sidebar">
+
+                    <!-- icon close -->
+                    <div class="icon inline-block" id="toogle-close">
+                        <ion-icon name="close-outline" class="text-5xl text-gray-600"></ion-icon>
+                    </div>
+
+                    <!-- list menu -->
+                    <ul class="text-lg font-semibold tracking-wide text-slate-500 flex-col ">
+                        
+                            <li
+                                class="transition hover:duration-300 bg-cover bg-clip-text text-transparent py-2 px-6 rounded-full text-center m-6">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li
+                                class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full text-center m-6">
+                                <a href="pages/project.html">Project </a>
+                            </li>
+                            <li
+                                class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full text-center m-6">
+                                <a href="">Skill</a>
+                            </li>
+                            <li
+                                class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full text-center m-6">
+                                <a href="#blog">Blog</a>
+                            </li>
+                            <li
+                                class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full text-center m-6">
+                                <a href="">Contact</a>
+                            </li>
+                        
+                    </ul>
                 </div>
 
 
@@ -312,6 +347,8 @@
 
     <div class="mb-64"></div>
 
+    <!-- JS External -->
+    <script src="assets/js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
