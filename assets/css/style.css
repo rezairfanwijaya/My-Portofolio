@@ -1074,11 +1074,6 @@ Ensure the default browser behavior of the `hidden` attribute.
           text-decoration-line: underline;
 }
 
-.decoration-slate-800{
-  -webkit-text-decoration-color: #1e293b;
-          text-decoration-color: #1e293b;
-}
-
 .decoration-pink-600{
   -webkit-text-decoration-color: #db2777;
           text-decoration-color: #db2777;
@@ -1165,11 +1160,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:decoration-pink-600:hover{
-  -webkit-text-decoration-color: #db2777;
-          text-decoration-color: #db2777;
 }
 
 .hover\:decoration-orange-600:hover{
@@ -1310,9 +1300,22 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding: 1rem;
   }
 
+  .md\:p-1{
+    padding: 0.25rem;
+  }
+
+  .md\:p-3{
+    padding: 0.75rem;
+  }
+
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
