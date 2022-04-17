@@ -6,6 +6,12 @@ toogle.addEventListener('click', function () {
     sidebar.style.display = 'block';
 });
 
+var close = document.getElementById('toogle-close');
+close.addEventListener('click', function () {
+    var sidebar = document.getElementById('sidebar');
+    sidebar.style.display = 'none';
+});
+
 // var toogelClose = document.getElementById('toogle-close');
 // toogelClose.addEventListener('click', function () {
 //     var sidebar = document.getElementById('sidebar');
