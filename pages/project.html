@@ -59,8 +59,43 @@
 
 
             <!-- toogle untuk layar md kebawah -->
-            <div class="icon inline-block lg:hidden ">
+            <div class="icon inline-block lg:hidden " id="toogle-side">
                 <ion-icon name="menu-outline" class="text-5xl text-gray-800"></ion-icon>
+            </div>
+
+             <!-- list untuk layar lg kebawah -->
+             <div class="yard shadow-sm z-50  absolute left-0 right-0 h-full bg-white rounded-md p-3 hidden" id="sidebar">
+
+                <!-- icon close -->
+                <div class="icon inline-block" id="toogle-close">
+                    <ion-icon name="close-outline" class="text-5xl text-gray-600"></ion-icon>
+                </div>
+
+                <!-- list menu -->
+                <ul class="text-lg font-semibold tracking-wide text-slate-500 flex-col ">
+
+                    <li
+                        class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full text-center m-6">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li
+                        class="transition hover:duration-300 bg-cover bg-clip-text text-transparent py-2 px-6 rounded-full text-center m-6">
+                        <a href="pages/project.html">Project </a>
+                    </li>
+                    <li
+                        class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full text-center m-6">
+                        <a href="">Skill</a>
+                    </li>
+                    <li
+                        class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full text-center m-6">
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li
+                        class="transition hover:duration-300 hover:bg-cover hover:bg-clip-text hover:text-transparent py-2 px-6 rounded-full text-center m-6">
+                        <a href="">Contact</a>
+                    </li>
+
+                </ul>
             </div>
 
 
@@ -89,7 +124,7 @@
                     </div>
                     <div class="body-card my-4 mx-4">
                         <div class="judul font-bold text-slate-700 tracking-wider">Login Management System</div>
-                        <div class="desc my-5">I made a multi-account login and register feature using php native</div>
+                        <div class="desc my-5 text-slate-600">I made a multi-account login and register feature using php native</div>
                         <div class="tombol flex justify-end">
                             <!-- code -->
                             <a href="https://github.com/rezairfanwijaya/login-and-register" target="blank">
@@ -112,7 +147,7 @@
                     </div>
                     <div class="body-card my-4 mx-4">
                         <div class="judul font-bold text-slate-700 tracking-wider">Bemo-Streaming Movies</div>
-                        <div class="desc my-5">I created a display for a movie streaming website using bootstrap</div>
+                        <div class="desc my-5 text-slate-600">I created a display for a movie streaming website using bootstrap</div>
                         <div class="tombol flex justify-between">
                             <!-- demo -->
                             <a href="https://beban.netlify.app/" target="blank">
@@ -142,7 +177,7 @@
                     </div>
                     <div class="body-card my-4 mx-4">
                         <div class="judul font-bold text-slate-700 tracking-wider">Simple Snake Game </div>
-                        <div class="desc my-5">I made a simple snake game using vanilla javascript</div>
+                        <div class="desc my-5 text-slate-600">I made a simple snake game using vanilla javascript</div>
                         <div class="tombol flex justify-between">
                             <!-- demo -->
                             <a href="https://rezairfanwijaya.github.io/snake-game-with-js/" target="blank">
@@ -172,7 +207,7 @@
                     </div>
                     <div class="body-card my-4 mx-4">
                         <div class="judul font-bold text-slate-700 tracking-wider">Luxspace-Furniture Shop</div>
-                        <div class="desc my-5">I made a furniture store website using react js from <a
+                        <div class="desc my-5 text-slate-600">I made a furniture store website using react js from <a
                                 href="https://buildwithangga.com/"
                                 class="underline underline-offset-2 decoration-pink-600 hover:decoration-orange-600"
                                 target="blank">Build With Angga</a></div>
@@ -205,7 +240,7 @@
                     </div>
                     <div class="body-card my-4 mx-4">
                         <div class="judul font-bold text-slate-700 tracking-wider">Herocat Cat Adoption</div>
-                        <div class="desc my-5">I made a website to adopt a cat using php mysql</div>
+                        <div class="desc my-5 text-slate-600">I made a website to adopt a cat using php mysql</div>
                         <div class="tombol flex justify-end">
                             <!-- code -->
                             <a href="https://github.com/rezairfanwijaya/herocat" target="blank">
@@ -227,7 +262,7 @@
                     </div>
                     <div class="body-card my-4 mx-4">
                         <div class="judul font-bold text-slate-700 tracking-wider">Restaurant Menu Order</div>
-                        <div class="desc my-5">I made an order system in a restaurant using oop php</div>
+                        <div class="desc my-5 text-slate-600">I made an order system in a restaurant using oop php</div>
                         <div class="tombol flex justify-between">
                             <!-- demo -->
                             <a href="https://restaurant-abdas.herokuapp.com/" target="blank">
@@ -257,7 +292,7 @@
                     </div>
                     <div class="body-card my-4 mx-4">
                         <div class="judul font-bold text-slate-700 tracking-wider">Tailwind Documentation</div>
-                        <div class="desc my-5">I made a tailwind learning documentation</div>
+                        <div class="desc my-5 text-slate-600">I made a tailwind learning documentation</div>
                         <div class="tombol flex justify-between">
                              <!-- demo -->
                              <a href="https://rezairfanwijaya.github.io/Learn-Tailwind/" target="blank">
@@ -287,7 +322,7 @@
                     </div>
                     <div class="body-card my-4 mx-4">
                         <div class="judul font-bold text-slate-700 tracking-wider">Database Documentation</div>
-                        <div class="desc my-5">I made a mysql database learning documentation</div>
+                        <div class="desc my-5 text-slate-600">I made a mysql database learning documentation</div>
                         <div class="tombol flex justify-between">
                                <!-- demo -->
                                <a href="https://abdasdb.netlify.app/" target="blank">
@@ -309,9 +344,41 @@
                     </div>
                 </div>
             </div>
+             <!-- ulrshortener -->
+             <div class="cols-span-1 rows-span-1">
+                <div class="bg-white hover:shadow-sm drop-shadow-md  hover:drop-shadow-lg rounded-2xl">
+                    <div class="head">
+                        <img src="../assets/img/projectCover/urlshortener.png" alt="urlshortener" class="rounded-t-2xl">
+                    </div>
+                    <div class="body-card my-4 mx-4">
+                        <div class="judul font-bold text-slate-700 tracking-wider">Url Shortener</div>
+                        <div class="desc my-5 text-slate-600">I made a web to shorten url using public api and
+                            react js</div>
+                        <div class="tombol flex justify-between">
+                               <!-- demo -->
+                               <a href="https://short-url-mauve.vercel.app/" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-demo hover:text-white hover:border-white">
+                                    <div class="font-medium">Demo</div>
+                                    <ion-icon name="play-outline"></ion-icon>
+                                </div>
+                            </a>
+                            <!-- code -->
+                            <a href="https://github.com/rezairfanwijaya/ReactJS-URL-Shorteners" target="blank">
+                                <div
+                                    class="code flex items-center gap-2 mb-5 border-2 rounded-full py-1 px-3 hover:bg-cover hover:text-white hover:border-white">
+                                    <div class="font-medium">Code</div>
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <script src="../assets/js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
