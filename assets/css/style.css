@@ -452,8 +452,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .body{
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 90px;
+    padding-right: 90px;
   }
 }
 
@@ -562,16 +562,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
 }
 
+.top-0{
+  top: 0px;
+}
+
+.left-9{
+  left: 2.25rem;
+}
+
 .right-1{
   right: 0.25rem;
-}
-
-.bottom-3{
-  bottom: 0.75rem;
-}
-
-.bottom-0{
-  bottom: 0px;
 }
 
 .z-50{
@@ -582,12 +582,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 4 / span 4;
 }
 
-.row-span-6{
-  grid-row: span 6 / span 6;
+.col-span-1{
+  grid-column: span 1 / span 1;
 }
 
 .row-span-3{
   grid-row: span 3 / span 3;
+}
+
+.row-span-1{
+  grid-row: span 1 / span 1;
 }
 
 .m-6{
@@ -650,10 +654,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-10{
   margin-top: 2.5rem;
-}
-
-.mt-8{
-  margin-top: 2rem;
 }
 
 .mb-9{
@@ -751,16 +751,12 @@ Ensure the default browser behavior of the `hidden` attribute.
           animation: bounce 1s infinite;
 }
 
-.grid-cols-4{
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-rows-6{
-  grid-template-rows: repeat(6, minmax(0, 1fr));
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-rows-1{
@@ -773,6 +769,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .items-center{
@@ -805,6 +805,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-1{
   gap: 0.25rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .overflow-x-hidden{
@@ -844,6 +848,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-2{
   border-width: 2px;
+}
+
+.border-0{
+  border-width: 0px;
 }
 
 .border-l-4{
@@ -927,25 +935,12 @@ Ensure the default browser behavior of the `hidden` attribute.
           background-clip: text;
 }
 
-.object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .p-2{
   padding: 0.5rem;
 }
 
 .p-3{
   padding: 0.75rem;
-}
-
-.p-0{
-  padding: 0px;
-}
-
-.p-7{
-  padding: 1.75rem;
 }
 
 .py-2{
@@ -1066,6 +1061,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
+.text-transparent{
+  color: transparent;
+}
+
 .text-gray-800{
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1074,10 +1073,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-600{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.text-transparent{
-  color: transparent;
 }
 
 .text-slate-700{
@@ -1221,6 +1216,219 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 300ms;
 }
 
+.hover\:after\:absolute:hover::after{
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.hover\:after\:bottom-0:hover::after{
+  content: var(--tw-content);
+  bottom: 0px;
+}
+
+.hover\:after\:left-0:hover::after{
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.hover\:after\:bg-red-600\/25:hover::after{
+  content: var(--tw-content);
+  background-color: rgb(220 38 38 / 0.25);
+}
+
+.hover\:after\:px-\[21px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.hover\:after\:py-\[43px\]:hover::after{
+  content: var(--tw-content);
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+
+.hover\:after\:px-\[23px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.hover\:after\:px-\[42px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.hover\:after\:py-\[89px\]:hover::after{
+  content: var(--tw-content);
+  padding-top: 89px;
+  padding-bottom: 89px;
+}
+
+.hover\:after\:px-\[65px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.hover\:after\:px-\[73px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 73px;
+  padding-right: 73px;
+}
+
+.hover\:after\:px-\[72px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.hover\:after\:px-\[45px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.hover\:after\:px-\[75px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.hover\:after\:px-\[86px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 86px;
+  padding-right: 86px;
+}
+
+.hover\:after\:px-\[91px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 91px;
+  padding-right: 91px;
+}
+
+.hover\:after\:px-\[\]:hover::after{
+  content: var(--tw-content);
+  padding-left: ;
+  padding-right: ;
+}
+
+.hover\:after\:px-\[30px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hover\:after\:px-\[50px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hover\:after\:px-\[51px\]:hover::after{
+  content: var(--tw-content);
+  padding-left: 51px;
+  padding-right: 51px;
+}
+
+.hover\:after\:py-\[73px\]:hover::after{
+  content: var(--tw-content);
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+
+.hover\:after\:py-\[70px\]:hover::after{
+  content: var(--tw-content);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.hover\:after\:font-inter:hover::after{
+  content: var(--tw-content);
+  font-family: Inter;
+}
+
+.hover\:after\:text-xl:hover::after{
+  content: var(--tw-content);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.hover\:after\:text-3xl:hover::after{
+  content: var(--tw-content);
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.hover\:after\:font-semibold:hover::after{
+  content: var(--tw-content);
+  font-weight: 600;
+}
+
+.hover\:after\:text-white:hover::after{
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:after\:backdrop-blur-sm:hover::after{
+  content: var(--tw-content);
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.hover\:after\:content-\[\'Laravel8\'\]:hover::after{
+  --tw-content: 'Laravel8';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'Tailwind\'\]:hover::after{
+  --tw-content: 'Tailwind';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'Javascript\'\]:hover::after{
+  --tw-content: 'Javascript';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'Golang\'\]:hover::after{
+  --tw-content: 'Golang';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'HTML\'\]:hover::after{
+  --tw-content: 'HTML';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'Figma\'\]:hover::after{
+  --tw-content: 'Figma';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'Bootstrap\'\]:hover::after{
+  --tw-content: 'Bootstrap';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'SASS\'\]:hover::after{
+  --tw-content: 'SASS';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'PHP\'\]:hover::after{
+  --tw-content: 'PHP';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'GIT\'\]:hover::after{
+  --tw-content: 'GIT';
+  content: var(--tw-content);
+}
+
 @media (min-width: 640px){
   .sm\:mt-0{
     margin-top: 0px;
@@ -1238,28 +1446,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px){
-  .md\:bottom-10{
-    bottom: 2.5rem;
+  .md\:bottom-5{
+    bottom: 1.25rem;
   }
 
   .md\:right-10{
     right: 2.5rem;
   }
 
-  .md\:bottom-5{
-    bottom: 1.25rem;
-  }
-
-  .md\:col-span-1{
-    grid-column: span 1 / span 1;
-  }
-
-  .md\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
-  .md\:row-span-3{
-    grid-row: span 3 / span 3;
+  .md\:bottom-10{
+    bottom: 2.5rem;
   }
 
   .md\:ml-1{
@@ -1282,16 +1478,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 50%;
   }
 
+  .md\:w-max{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
   .md\:w-1\/5{
     width: 20%;
   }
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-rows-3{
-    grid-template-rows: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row{
@@ -1306,10 +1504,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-evenly;
   }
 
-  .md\:gap-4{
-    gap: 1rem;
-  }
-
   .md\:p-3{
     padding: 0.75rem;
   }
@@ -1318,19 +1512,107 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .md\:hover\:after\:absolute:hover::after{
+    content: var(--tw-content);
+    position: absolute;
+  }
+
+  .md\:hover\:after\:bottom-0:hover::after{
+    content: var(--tw-content);
+    bottom: 0px;
+  }
+
+  .md\:hover\:after\:left-0:hover::after{
+    content: var(--tw-content);
+    left: 0px;
+  }
+
+  .md\:hover\:after\:bg-red-600\/25:hover::after{
+    content: var(--tw-content);
+    background-color: rgb(220 38 38 / 0.25);
+  }
+
+  .md\:hover\:after\:px-\[55px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  .md\:hover\:after\:py-\[88px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+
+  .md\:hover\:after\:px-\[56px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  .md\:hover\:after\:py-\[89px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 89px;
+    padding-bottom: 89px;
+  }
+
+  .md\:hover\:after\:px-\[51px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 51px;
+    padding-right: 51px;
+  }
+
+  .md\:hover\:after\:py-\[70px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .md\:hover\:after\:font-inter:hover::after{
+    content: var(--tw-content);
+    font-family: Inter;
+  }
+
+  .md\:hover\:after\:text-3xl:hover::after{
+    content: var(--tw-content);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:hover\:after\:text-xl:hover::after{
+    content: var(--tw-content);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:hover\:after\:font-semibold:hover::after{
+    content: var(--tw-content);
+    font-weight: 600;
+  }
+
+  .md\:hover\:after\:text-white:hover::after{
+    content: var(--tw-content);
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .md\:hover\:after\:backdrop-blur-sm:hover::after{
+    content: var(--tw-content);
+    --tw-backdrop-blur: blur(4px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+            backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  }
+
+  .md\:hover\:after\:content-\[\'Tailwind\'\]:hover::after{
+    --tw-content: 'Tailwind';
+    content: var(--tw-content);
+  }
 }
 
 @media (min-width: 1024px){
   .lg\:top-8{
     top: 2rem;
-  }
-
-  .lg\:col-span-1{
-    grid-column: span 1 / span 1;
-  }
-
-  .lg\:row-span-3{
-    grid-row: span 3 / span 3;
   }
 
   .lg\:my-20{
@@ -1343,12 +1625,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 0.25rem;
   }
 
-  .lg\:mb-20{
-    margin-bottom: 5rem;
+  .lg\:my-16{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 
-  .lg\:mt-0{
-    margin-top: 0px;
+  .lg\:mb-20{
+    margin-bottom: 5rem;
   }
 
   .lg\:mb-4{
@@ -1383,10 +1666,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-items: flex-start;
   }
 
-  .lg\:gap-6{
-    gap: 1.5rem;
-  }
-
   .lg\:p-3{
     padding: 0.75rem;
   }
@@ -1410,11 +1689,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1.25rem;
   }
 
-  .lg\:py-\[57\%\]{
-    padding-top: 57%;
-    padding-bottom: 57%;
-  }
-
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1436,5 +1710,242 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:tracking-wider{
     letter-spacing: 0.05em;
+  }
+
+  .lg\:hover\:after\:absolute:hover::after{
+    content: var(--tw-content);
+    position: absolute;
+  }
+
+  .lg\:hover\:after\:bottom-0:hover::after{
+    content: var(--tw-content);
+    bottom: 0px;
+  }
+
+  .lg\:hover\:after\:left-0:hover::after{
+    content: var(--tw-content);
+    left: 0px;
+  }
+
+  .lg\:hover\:after\:bg-red-600\/25:hover::after{
+    content: var(--tw-content);
+    background-color: rgb(220 38 38 / 0.25);
+  }
+
+  .lg\:hover\:after\:px-\[51px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 51px;
+    padding-right: 51px;
+  }
+
+  .lg\:hover\:after\:py-\[70px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .lg\:hover\:after\:px-\[42px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+
+  .lg\:hover\:after\:py-\[89px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 89px;
+    padding-bottom: 89px;
+  }
+
+  .lg\:hover\:after\:px-\[21px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+
+  .lg\:hover\:after\:py-\[43px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 43px;
+    padding-bottom: 43px;
+  }
+
+  .lg\:hover\:after\:px-\[65px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .lg\:hover\:after\:px-\[73px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 73px;
+    padding-right: 73px;
+  }
+
+  .lg\:hover\:after\:px-\[72px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+
+  .lg\:hover\:after\:px-\[45px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .lg\:hover\:after\:px-\[75px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  .lg\:hover\:after\:px-\[86px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 86px;
+    padding-right: 86px;
+  }
+
+  .lg\:hover\:after\:px-\[91px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 91px;
+    padding-right: 91px;
+  }
+
+  .lg\:hover\:after\:px-\[41px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 41px;
+    padding-right: 41px;
+  }
+
+  .lg\:hover\:after\:px-\[55px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  .lg\:hover\:after\:py-\[83px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 83px;
+    padding-bottom: 83px;
+  }
+
+  .lg\:hover\:after\:py-\[86px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 86px;
+    padding-bottom: 86px;
+  }
+
+  .lg\:hover\:after\:py-\[8px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .lg\:hover\:after\:py-\[88px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+
+  .lg\:hover\:after\:px-\[55x\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 55x;
+    padding-right: 55x;
+  }
+
+  .lg\:hover\:after\:px-\[56px\]:hover::after{
+    content: var(--tw-content);
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  .lg\:hover\:after\:py-\[75px\]:hover::after{
+    content: var(--tw-content);
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .lg\:hover\:after\:font-inter:hover::after{
+    content: var(--tw-content);
+    font-family: Inter;
+  }
+
+  .lg\:hover\:after\:text-xl:hover::after{
+    content: var(--tw-content);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:hover\:after\:text-3xl:hover::after{
+    content: var(--tw-content);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:hover\:after\:font-semibold:hover::after{
+    content: var(--tw-content);
+    font-weight: 600;
+  }
+
+  .lg\:hover\:after\:text-white:hover::after{
+    content: var(--tw-content);
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:after\:backdrop-blur-sm:hover::after{
+    content: var(--tw-content);
+    --tw-backdrop-blur: blur(4px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+            backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  }
+
+  .lg\:hover\:after\:content-\[\'Tailwind\'\]:hover::after{
+    --tw-content: 'Tailwind';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'Javascript\'\]:hover::after{
+    --tw-content: 'Javascript';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'Laravel8\'\]:hover::after{
+    --tw-content: 'Laravel8';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'Golang\'\]:hover::after{
+    --tw-content: 'Golang';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'HTML\'\]:hover::after{
+    --tw-content: 'HTML';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'Figma\'\]:hover::after{
+    --tw-content: 'Figma';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'Bootstrap\'\]:hover::after{
+    --tw-content: 'Bootstrap';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'SASS\'\]:hover::after{
+    --tw-content: 'SASS';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'PHP\'\]:hover::after{
+    --tw-content: 'PHP';
+    content: var(--tw-content);
+  }
+
+  .lg\:hover\:after\:content-\[\'GIT\'\]:hover::after{
+    --tw-content: 'GIT';
+    content: var(--tw-content);
   }
 }
